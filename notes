@@ -6,4 +6,5 @@ get jquery cdn from google
 dl uncompressed ()
 --commit
 
+curl GET https://code.jquery.com/jquery-3.3.1.js > jquery.js
 

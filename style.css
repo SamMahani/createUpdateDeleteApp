@@ -1,0 +1,55 @@
+
+body {
+	background: darkgrey;
+	justify-content: center;
+}
+
+.getterContainer {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	height: 0 auto;
+	width: 0 auto;
+	margin: 0 auto;
+
+	background: lightgrey;
+}
+	.searchFieldAndButton {
+		height: 0 auto;
+		width: 0 auto;
+		margin: 0 auto;
+
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		background: yellow;
+
+	}
+	.outputContainer {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		height: 0 auto;
+		width: 0 auto;
+		margin: 0 auto;
+
+		background: lightblue;
+
+	}
+
+.setterContainer {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+
+	height: 0 auto;
+	width: 0 auto;
+	margin: 0 auto;
+
+
+	background: pink;
+
+}

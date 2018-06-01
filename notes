@@ -8,3 +8,11 @@ dl uncompressed ()
 
 curl GET https://code.jquery.com/jquery-3.3.1.js > jquery.js
 
+
+front end is genrally react or
+
+local storage will be data base (document or noSeql) which are key value bases. Or relational data bases
+
+add some css
+format the code so it looks like code? using the <code></code> tag
+

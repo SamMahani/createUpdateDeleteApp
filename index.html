@@ -8,15 +8,53 @@
 
     <script src="./lib/jquery.js"></script>
     <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 
+    <!-- <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <link rel="stylesheet"
+      href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.12.0/build/styles/default.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.12.0/build/highlight.min.js"></script>
+
+    <link rel="stylesheet" href="/path/to/styles/default.css">
+    <script src="/path/to/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+ -->
   </head>
+
+
   <body>
 
-    <input class="textField" type="text" name="firstInputField">
-    <button class="setData">Click to save text</button>
-    <button class="getData">Click get text</button>
 
-    <div class="debug"></div>
+    <div class="getterContainer">
+
+      <div class="searchFieldAndButton">
+        <input class="searchField" type="text">
+        <button class="getData">Find Snippet</button>
+      </div>
+
+      <!-- <div class="debugSearch">Debugger</div> -->
+
+      <div class="outputContainer">
+        <code class="insertCode">HELLO</code>
+      </div> 
+
+    </div>
+
+
+
+
+    <div class="setterContainer">
+      <code>Enter your name and code below</code>
+      <input class="nameField" type="text" name="firstInputField">
+      <textarea class="codeField" rows="10" cols="100"></textarea>
+      <button class="setData">Click to save name and code</button>
+
+      <div class="debugInput"></div>
+    </div>
+
+
 
   </body>
 </html>

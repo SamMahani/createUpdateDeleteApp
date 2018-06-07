@@ -1,55 +1,200 @@
 
 body {
-	background: darkgrey;
-	justify-content: center;
+	background: white;
+	margin: -5px;
 }
+
+
+.titleBox {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 250px;
+	width: 0 auto;
+	/*margin-top: 100px;*/
+	background: transparent;
+	opacity: .8;
+	font-size: 90px;
+}
+
+.divider {
+	width: 0 auto;
+	height: 30px;
+	margin: 30px;
+	background: transparent;
+}
+
 
 .getterContainer {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 
-	height: 0 auto;
 	width: 0 auto;
-	margin: 0 auto;
-
-	background: lightgrey;
+	/*margin: 10px;*/
+	background: transparent;
 }
-	.searchFieldAndButton {
+	.searchField {
+		height: 2em;
+	 	width: 40em;
+		margin: 0 auto;
+		margin-top: 10px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+
+		font-size: 16px; 
+	}
+	.getData {
 		height: 0 auto;
 		width: 0 auto;
-		margin: 0 auto;
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
 
 		display: flex;
 		justify-content: center;
-		flex-direction: row;
-		background: yellow;
+		flex-direction: column;
 
 	}
 	.outputContainer {
 		display: flex;
 		flex-wrap: wrap;
+		flex-direction: column;
 		justify-content: center;
+		align-items: center;
 
 		height: 0 auto;
 		width: 0 auto;
 		margin: 0 auto;
 
-		background: lightblue;
-
+		/*background: rgba(245,245,245,.8);*/
+		background: transparent;
 	}
+		.codeSnippets {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: left;
+			height: 20em; 
+			width: 75em;
+			margin: 10px;
+			color: rgba(28, 124, 130, 1);
+			background: rgba(219, 219, 219, 0.96);
+		}
+
+
 
 .setterContainer {
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
 	justify-content: center;
-
-	height: 0 auto;
+	flex-direction: column;
 	width: 0 auto;
-	margin: 0 auto;
-
-
-	background: pink;
-
+	background: transparent;
 }
+	.instructions {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100;
+		width: 0 auto;
+		background: transparent;
+		opacity: 1;
+		font-size: 50px;
+		color: white;
+	}
+	.nameField {
+		height: 2em;
+	 	width: 40em;
+		margin: 0 auto;
+		margin-top: 10px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+
+		font-size: 16px; 
+	}
+	.codeField {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: left;
+		height: auto; 
+		width: 75em;
+		margin: auto;
+		margin-top: 10px;
+		color: rgba(28, 124, 130, 1);
+		background: rgba(240, 217, 199, 0.80);
+
+	}
+	.setData {
+		height: 0 auto;
+		width: 0 auto;
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+
+/*New Fonts*/
+@font-face {
+    font-family: 'Anurati';
+    font-style: normal;
+    font-weight: 7000;
+    src: url(./lib/fonts/Anurati-Regular.otf) format('truetype');
+}  
+p.customfont { 
+      font-family: "Anurati", Verdana, Tahoma;
+  }
+
+
+/*Parralax*/
+.parallax1 {
+    background-image: url("./lib/img/adventure-aerial-beautiful-351448.jpg");
+
+    /* Set a specific height */
+    min-height: 800px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    background-image: url("./lib/img/adventure-attraction-blurry-618545.jpg");
+    /* Set a specific height */
+    min-height: 500px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("./lib/img/analog-audio-backup-170290.jpg");
+    /*background-image: url("./lib/img/adventure-aerial-beautiful-351448.jpg");*/
+
+    /* Set a specific height */
+    min-height: 1200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+
+
+

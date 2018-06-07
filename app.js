@@ -8,7 +8,7 @@ $(document).ready(function(){
 	 	let getVal = JSON.parse(localStorage.getItem(`${searchVal}`));
 
 	 	if(getVal === null) {
-	 		alert("Incorrect use input, please try again");
+	 		alert("Incorrect user input, please try again");
 	 	}
 
 	 	else {
